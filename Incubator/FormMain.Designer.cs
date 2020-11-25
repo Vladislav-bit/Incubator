@@ -28,14 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.buttonStart = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // buttonStart
+            // 
+            this.buttonStart.Location = new System.Drawing.Point(46, 54);
+            this.buttonStart.Name = "buttonStart";
+            this.buttonStart.Size = new System.Drawing.Size(342, 94);
+            this.buttonStart.TabIndex = 0;
+            this.buttonStart.Text = "Start simulation";
+            this.buttonStart.UseVisualStyleBackColor = true;
+            this.buttonStart.Click += new System.EventHandler(this.buttonStart_Click);
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(509, 270);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonStart);
             this.Name = "FormMain";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -43,6 +54,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button buttonStart;
     }
 }
 

@@ -17,8 +17,11 @@ namespace Incubator
         {
             InitializeComponent();
             world = new CWorld();
-            world.Start();
         }
 
+        private void buttonStart_Click(object sender, EventArgs e)
+        {
+            world.Start();
+        }
     }
 }
