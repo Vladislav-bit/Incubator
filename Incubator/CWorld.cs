@@ -137,7 +137,12 @@ namespace Incubator
 
         }
 
-        private
+        private void KillBot(int botIndex)
+        {
+            var bot = bots[botIndex];
+            bot.Type = BotType.LV_ORGANIC_SINK;
+
+        }
 
         private void BotDouble(int botIndex)
         {
