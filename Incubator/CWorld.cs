@@ -48,12 +48,12 @@ namespace Incubator
         /// <summary>
         /// Ширина мира в клетках
         /// </summary>
-        int WorldWidth = 180;
+        public int WorldWidth = 180;
 
         /// <summary>
         /// Высота мира в клектах
         /// </summary>
-        int WorldHeight = 96;
+        public int WorldHeight = 96;
 
 
         public int[,] cells;
@@ -216,6 +216,7 @@ namespace Incubator
         /// <summary>
         /// Выполнение игрового цикла
         /// </summary>
+
         public void Start()
         {
             while (!stop)

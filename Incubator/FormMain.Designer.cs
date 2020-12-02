@@ -33,9 +33,10 @@
             // 
             // buttonStart
             // 
-            this.buttonStart.Location = new System.Drawing.Point(46, 54);
+            this.buttonStart.Location = new System.Drawing.Point(128, 76);
+            this.buttonStart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonStart.Name = "buttonStart";
-            this.buttonStart.Size = new System.Drawing.Size(342, 94);
+            this.buttonStart.Size = new System.Drawing.Size(218, 56);
             this.buttonStart.TabIndex = 0;
             this.buttonStart.Text = "Start simulation";
             this.buttonStart.UseVisualStyleBackColor = true;
@@ -43,10 +44,11 @@
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(509, 270);
             this.Controls.Add(this.buttonStart);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormMain";
             this.Text = "Form1";
             this.ResumeLayout(false);
